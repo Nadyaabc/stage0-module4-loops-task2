@@ -4,13 +4,13 @@ public class Multiplication {
     public void printMultiplied(int multiplyByAndToInclusive) {
         int i = 0;
         if (multiplyByAndToInclusive >= 0) {
-            while (i < multiplyByAndToInclusive) {
+            while (i <= multiplyByAndToInclusive) {
                 System.out.println(i * multiplyByAndToInclusive);
                 i++;
             }
         }
         else
-            while (i > multiplyByAndToInclusive) {
+            while (i >= multiplyByAndToInclusive) {
                 System.out.println(i * multiplyByAndToInclusive);
                 i--;
             }

@@ -8,7 +8,7 @@ public class PrimeNumbers {
         int n = 0; // amount og dividers
         while(i <= printToInclusive)
         {
-            while(k != i)
+            while(k <= i)
             {
                 if (i % k == 0 )
                 {
